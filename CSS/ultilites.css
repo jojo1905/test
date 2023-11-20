@@ -1,0 +1,207 @@
+.container {
+  max-width: 1400px;
+  padding: 0px;
+  margin: 0 auto;
+}
+
+.pt:hover {
+  cursor: pointer;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.btn {
+  border: none;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 15px 40px;
+  display: inline-block;
+}
+
+.pt {
+  cursor: pointer;
+}
+
+.mw {
+  max-width: 1600px;
+}
+
+.mdw {
+  max-width: 1400px;
+}
+
+.sw {
+  max-width: 500px;
+}
+
+/* Text size */
+.text-center {
+  text-align: center;
+}
+
+.sm {
+  font-size: 1rem;
+}
+
+.md {
+  font-size: 2rem;
+}
+
+.lg {
+  font-size: 3rem;
+}
+
+.xl {
+  font-size: 4rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* border */
+.br-5 {
+  border-radius: 5px;
+}
+
+.br-10 {
+  border-radius: 10px;
+}
+
+.br-15 {
+  border-radius: 15px;
+}
+
+.br-half {
+  border-radius: 50%;
+}
+
+/* margin */
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-60 {
+  margin-bottom: 60px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+.m-1 {
+  margin: 10px;
+}
+
+.m-2 {
+  margin: 20px;
+}
+
+.m-3 {
+  margin: 30px;
+}
+
+.m-4 {
+  margin: 40px;
+}
+
+.m-5 {
+  margin: 50px;
+}
+
+.m-6 {
+  margin: 60px;
+}
+
+.m-7 {
+  margin: 70px;
+}
+
+.m-8 {
+  margin: 80px;
+}
+
+/* Padding */
+.p-0 {
+  padding: 0px;
+}
+
+.p-1 {
+  padding: 10px;
+}
+
+.p-2 {
+  padding: 20px;
+}
+
+.p-3 {
+  padding: 30px;
+}
+
+.p-4 {
+  padding: 40px;
+}
+
+.p-5 {
+  padding: 50px;
+}
+
+.p-6 {
+  padding: 60px;
+}
+
+.p-7 {
+  padding: 70px;
+}
+
+.p-8 {
+  padding: 80px;
+}
+
+/* Card */
+.card {
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  color: white;
+  background-color: var(--Dark-color);
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  gap: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+/*# sourceMappingURL=ultilites.css.map */
